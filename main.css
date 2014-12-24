@@ -1,0 +1,120 @@
+@font-face {
+    font-family:"Ostrich-Rounded";
+    src: url("ostrich-rounded.ttf") /* TTF file for CSS3 browsers */
+}
+
+body {
+    background-color: #333333;
+}
+
+div.box {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    border: solid 1px #CCCCCC;
+    background-color: #f9f9f9;
+    padding: 4px;
+    margin: 0px 80px 0px 4px;
+    height: 300px;
+    width: 600px;
+    display: table;
+    float: right;
+}
+
+.main-content {
+	margin: 0 auto;
+	width: 960px;
+	padding-top: 1px; /* Collapsing Margins Fix */
+}
+
+.header {
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+	color: #cccccc;
+	font-size: 45px;
+    font-weight: 400;
+    width: 300px;
+    padding: 0px 0px 0px 20px;
+    }
+
+.menu {
+	list-style-type: none;
+	text-align: right;
+    float: none;
+    margin: -10px;
+    text-transform: uppercase;
+}
+
+.menu li {
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+	color: #cccccc;
+	font-size: 18px;
+    font-weight: 300;
+    padding: 20px 40px 20px 40px;
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.social {
+    list-style-type: none;
+    text-align: center;
+        
+}
+
+.social li {
+    display: inline-block;
+    padding: 10px 30px 10px 30px;
+}
+
+.copyright {
+    font-family: 'Lato', sans-serif;
+	color: #bbbbbb;
+	font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+    padding-left: 40px;
+}
+
+.background {
+    
+    height: 607px;
+    background-color: #eeeeee;
+    background-size: cover;
+    background-position: right top;
+}
+
+.craig {
+    padding-top: 4px;
+    padding-left: 80px;
+    width: 300px;
+}
+
+.about_me {
+    text-align: center;
+    font-family: 'ostrich-rounded', sans-serif;
+    font-size: 30px;
+    display: inline;
+}
+
+.about_me p {
+    border-radius: 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    
+    float: right;
+}
+
+.jumbotron {
+  background-image:url('/Images/IBM%20Toronto%20Mono.jpg');
+  height: 607px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
